@@ -23,7 +23,7 @@ embedder = SentenceTransformer("BAAI/bge-small-en-v1.5")
 print("✅ Embedding model loaded successfully!")
 
 # ---- Connect to Pinecone ----
-PINECONE_API_KEY = "pcsk_7BSh4K_8PTBDdDrHua2znwahVYYF7ksitNNrZ4KRvzGx7EMioskZXq98ZZMgLsT5BsKqVq"  # 🔴 REPLACE with your Pinecone API key
+PINECONE_API_KEY = ""  # 🔴 REPLACE with your Pinecone API key
 INDEX_NAME = "biobert-med"
 
 pc = Pinecone(api_key=PINECONE_API_KEY)
@@ -31,7 +31,7 @@ index = pc.Index(INDEX_NAME)
 print(f"✅ Connected to Pinecone index: {INDEX_NAME}")
 
 # ---- Groq API Setup ----
-GROQ_API_KEY = "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"  # 🔴 REPLACE with your Groq API key
+GROQ_API_KEY = ""  # 🔴 REPLACE with your Groq API key
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 # ---- Define Request Model ----
