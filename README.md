@@ -24,7 +24,7 @@ An intelligent AI-powered chatbot that provides friendly healthcare guidance and
 
 ## 📷 UI Preview
 
-![Chatbot Screenshot](./screenshots/chatbot-ui.png)
+![Chatbot Screenshot]https://github.com/Suri596/healthcare/blob/main/chatbot%20screenshot.jpg
 
 ---
 
